@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>RanGO - Contact</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="RanGO Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+</head>
+
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header d-flex flex-row justify-content-end align-items-center trans_200" style="background-color: darkslateblue">
+		
+		<!-- Logo -->
+		<div class="logo mr-auto">
+			<a href="#"><img src="images/e4c21d8e-2816-4bfb-9a77-d3461e9e56e7.png" width="70px" height="70px"></a>
+		</div>
+
+		<!-- Navigation -->
+		
+
+		<!-- Hamburger -->
+		<div class="hamburger_container bez_1">
+			<i class="fas fa-bars trans_200"></i>
+		</div>
+		
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu_container">
+		<div class="menu menu_mm text-right">
+			<div class="menu_close"><i class="far fa-times-circle trans_200"></i></div>
+			<ul class="menu_mm">
+                				<li class="menu_mm"><a href="index.html">Inicio</a></li>
+<li class="menu_mm"><a href="tranvia.html">Seguridad Tranvia</a></li>
+				<li class="menu_mm"><a href="movilidad.html">Personas Movilidad reducida </a></li>
+				<li class="menu_mm active"><a href="turismo.html">Atractivos Turisticos</a></li>
+				<li class="menu_mm"><a href="huecas.html">Restaurants</a></li>
+                                <li class="menu_mm"><a href="offline.html">Offline</a></li>
+                <li class="menu_mm"><a href="contactanos.html">¿Necesitas Software?</a></li>				
+			</ul>
+		</div>
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_background_container prlx_parent">
+			<div class="home_background prlx" style="background-image:url(images/blog_background.jpg)"></div>
+		</div>
+		
+		<div class="home_title">
+			<h2>Lugares turisticos</h2>
+		</div>
+	<br>
+	</div>
+
+    <div class="row">
+<!-- Google map code from EZ Map - https://ezmap.co -->
+<!-- Google map code from EZ Map - https://ezmap.co -->
+<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAj-Y1b0oLoyHVxubf789hBH0OOCM1THrY'></script>
+<script>
+  function init() {
+    var mapOptions = { "center": {  "lat": -2.9060017714523,  "lng": -79.00186956640198 }, "clickableIcons": true, "disableDoubleClickZoom": false, "draggable": true, "fullscreenControl": true, "keyboardShortcuts": true, "mapMaker": false, "mapTypeControl": true, "mapTypeControlOptions": {  "text": "Default (depends on viewport size etc.)",  "style": 0 }, "mapTypeId": "terrain", "rotateControl": true, "scaleControl": true, "scrollwheel": true, "streetViewControl": true, "styles": [  {   "featureType": "water",   "stylers": [    {     "visibility": "on"    },    {     "color": "#b5cbe4"    }   ]  },  {   "featureType": "landscape",   "stylers": [    {     "color": "#efefef"    }   ]  },  {   "featureType": "road.highway",   "elementType": "geometry",   "stylers": [    {     "color": "#83a5b0"    }   ]  },  {   "featureType": "road.arterial",   "elementType": "geometry",   "stylers": [    {     "color": "#bdcdd3"    }   ]  },  {   "featureType": "road.local",   "elementType": "geometry",   "stylers": [    {     "color": "#ffffff"    }   ]  },  {   "featureType": "poi.park",   "elementType": "geometry",   "stylers": [    {     "color": "#e3eed3"    }   ]  },  {   "featureType": "administrative",   "stylers": [    {     "visibility": "on"    },    {     "lightness": 33    }   ]  },  {   "featureType": "road"  },  {   "featureType": "poi.park",   "elementType": "labels",   "stylers": [    {     "visibility": "on"    },    {     "lightness": 20    }   ]  },  {},  {   "featureType": "road",   "stylers": [    {     "lightness": 20    }   ]  } ], "zoom": 13, "zoomControl": true};
+    var mapElement = document.getElementById('ez-map');
+    var map = new google.maps.Map(mapElement, mapOptions);
+    var marker0 = new google.maps.Marker({title: "Plaza de las flores", icon: "img/park.png", position: new google.maps.LatLng(-2.897652582910932, -79.0058183670044), map: map});
+var infowindow0 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">Plaza de las flores</h3><p><span class=\"infoWebsite\"><a href=\" https://www.goraymi.com\"> https://www.goraymi.com</a><br></span><span class=\"infoEmail\"><a href=\"mailto:GoRaymi.gmail.com\">GoRaymi.gmail.com</a><br></span><span class=\"infoTelephone\">0991465132</span></p><p class=\"infoDescription\">La plaza de las Flores es un lugar ubicado en el Centro Histórico de Cuenca, donde alrededor de 25 vendedoras de flores y plantas, se colocan con carpas a expender todo tipo de flores, Este icono importante para la ciudad recibió el reconocimiento de la revista National Geographic, como el primero de diez mejores mercados de flores al aire libre en todo el mundo.<br>Permite el acceso para personas con movilidad reducida.<br>Ubicación: Padre Aguirre y Mariscal Lamar<br>Costo de entrada: Gratuito</p>",map: map});
+marker0.addListener('click', function () { infowindow0.open(map, marker0) ;});infowindow0.close();
+var marker1 = new google.maps.Marker({title: "Parque Calderón ", icon: "img/park.png", position: new google.maps.LatLng(-2.897395420038137, -79.00448799133301), map: map});
+var infowindow1 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">Parque Calderón </h3><p><span class=\"infoWebsite\"><a href=\"https://ec.viajandox.com\">https://ec.viajandox.com</a><br></span><span class=\"infoEmail\"><a href=\"mailto:ec.viaja.hotmail.com\">ec.viaja.hotmail.com</a><br></span><span class=\"infoTelephone\">0991468520</span></p><p class=\"infoDescription\">*<br>+El Parque Abdón Calderón está ubicado en el centro de Cuenca. Su bello paisaje, su tradición cultural y su comarca campesina, la convierten en uno de los principales lugares turísticos de la ciudad.  En su interior se pude observar monumento a Abdón Calderón héroe de la Independencia en la Batalla de Pichincha, que fue inaugurado el 24 de mayo de 1931.<br>Espacio que permite el acceso a personas con movilidad reducida.<br>Ubicación: Mariscal Sucre<br>Costo de entrada: Gratuito<br>Abierto las 24 horas </p>",map: map});
+marker1.addListener('click', function () { infowindow1.open(map, marker1) ;});infowindow1.close();
+var marker2 = new google.maps.Marker({title: "Museo y Parque Arqueológico Pumapungo", icon:"img/mu.png", position: new google.maps.LatLng(-2.906117494830226, -78.99680614471436), map: map});
+var infowindow2 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">Museo y Parque Arqueológico Pumapungo</h3><p><span class=\"infoWebsite\"><a href=\"http://www.museos.gob.ec\">http://www.museos.gob.ec</a><br></span><span class=\"infoEmail\"><a href=\"mailto:ccoronel@cuenca.gob.ec\">ccoronel@cuenca.gob.ec</a><br></span><span class=\"infoTelephone\">(07) 283-1521</span></p><p class=\"infoDescription\">Situados uno al lado del otro, corresponden a dos de los lugares turísticos de Cuenca imperdibles para los amantes de la historia. El Parque Arqueológico, por una parte, permite retroceder siglos de historia apreciando las ruinas de la antigua ciudad de Tomebamba, centro administrativo norte del Imperio Inca.<br>Permite el acceso para personas con movilidad reducida ya que cuenta con la facilidad para entrar al museo.<br>Horarios: Lunes: Cerrado Martes a Viernes: de 8h00 a 17h30 Sábados, Domingos y Feriados: de 10h00 a 16h00<br>Costo de entrada: Gratuito <br>Dirección:  Huayna-Capac  y Calle larga</p>",map: map});
+marker2.addListener('click', function () { infowindow2.open(map, marker2) ;});infowindow2.close();
+var marker3 = new google.maps.Marker({title: "Parque de la Madre", icon: "img/park.png", position: new google.maps.LatLng(-2.904488807843392, -79.00339365005493), map: map});
+var infowindow3 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">Parque de la Madre</h3><p><span class=\"infoWebsite\"><a href=\"http://lamotora.com.ec\">http://lamotora.com.ec</a><br></span><span class=\"infoEmail\"><a href=\"mailto:lamotora@gmail.com\">lamotora@gmail.com</a><br></span><span class=\"infoTelephone\">0998478569</span></p><p class=\"infoDescription\">Es un parque destinado a la recreación y al deporte, cuenta con espacios verdes y juegos infantiles así como de un sendero para atletas. Dentro del parque se encuentra las instalaciones de la Escuela de Marcha, deporte de atletismo que es muy común entre los jóvenes cuencanos siguiendo así los pasos del campeón olímpico y múltiple campeón mundial de Marcha Jefferson Pérez, al cual se lo ha honrado con una estatua dentro del propio parque. También se puede acceder al planetario municipal en donde se puede disfrutar de documentales a cerca de la tierra y el espacio de gran interés especialmente para los niños.<br><br>Permite el acceso para personas con movilidad reducida.<br>Está ubicado a las riveras del Tomebamba en la Av. Federico Malo y 12 de Abril.<br>Abierto las 24 horas el parque.<br>Horario del planetario Lunes a Viernes: 8:00 a 13:00 y 15:00 a 18:00.<br>Costo de entrada: Gratuito<br>Requisito para acceder al planetario entrar en grupos. <br></p>",map: map});
+marker3.addListener('click', function () { infowindow3.open(map, marker3) ;});infowindow3.close();
+var marker4 = new google.maps.Marker({title: "Mirador de Turi", icon: "img/vino.png", position: new google.maps.LatLng(-2.9224256649840297, -79.00998115539551), map: map});
+var infowindow4 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">Mirador de Turi</h3><p><span class=\"infoWebsite\"><a href=\"https://ec.viajandox.com\">https://ec.viajandox.com</a><br></span><span class=\"infoEmail\"><a href=\"mailto:info@viajandox.com\">info@viajandox.com</a><br></span><span class=\"infoTelephone\">4098857</span></p><p class=\"infoDescription\">Turi siempre ha sido parte de la ciudad, y la ciudad sin Turi es incompleta, porque el carácter de Cuenca está marcado por las montañas que la rodean. Su imagen es la de mirador, pero Turi también tiene otras imágenes: es paisaje propio, tiene cultura propia, una economía artesanal, y una arquitectura propia de Cuenca ubicada al interior de la parroquia.<br>Permite el acceso a personas con movilidad reducida al igual podrán vistar la iglesia del lugar.<br>Ubicación: La parroquia se halla ubicada a cuatro kilómetros al sur de la capital del Azuay, Cuenca; su principal vía de acceso es la avenida 24 de Mayo. <br>Costo de entrada: Gratuito<br>Abierto las 24 horas<br></p>",map: map});
+marker4.addListener('click', function () { infowindow4.open(map, marker4) ;});infowindow4.close();
+var marker5 = new google.maps.Marker({title: "Catedral de la inmaculada concepción", icon: "img/chu.png", position: new google.maps.LatLng(-2.897384704917171, -79.00534629821777), map: map});
+var infowindow5 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">Catedral de la inmaculada concepción</h3><p></p><p class=\"infoDescription\">La Catedral Nueva es el símbolo religioso más representativo de la ciudad. Su ubicación responde a la condición de centralidad y del poder religioso, frente a la plaza central, ocupando la mitad de la manzana situada al lado occidental. Su volumen, textura y color, se divisan desde todos los ángulos de Cuenca, inclusive de los alrededores. Su fachada es de piedra y mármol local, mientras que el piso está cubierto con mármoles rosas, importados de Carrara (Italia). Tiene una hermosa cúpula azul con otras menores que caracterizan el paisaje de la ciudad. A pesar de la inusual característica, ocurrida por equivocación, la Catedral Nueva de Cuenca es una monumental obra de fé, que comenzó a construirse en 1880.<br><br>Permite el acceso  a personas con movilidad reducida por la calle mariscal sucre.<br>Lunes a sábados a las 07:00, 09:30 y 12:00; los domingos a las 07:00, 09:30, 11:00, 12:00, 13:00 y 20:00 y la Hora Santa de lunes a viernes de 16:00 a 17:00.<br>Costo de entrada: Gratuito<br>Ubicación: Mariscal Sucre y Benigno Malo Cuenca<br><br><br><br></p>",map: map});
+marker5.addListener('click', function () { infowindow5.open(map, marker5) ;});infowindow5.close();
+var marker6 = new google.maps.Marker({title: "Callejón Santa Ana ", icon: "img/mu.png", position: new google.maps.LatLng(-2.8971146033127875, -79.00559580784386), map: map});
+var infowindow6 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">Callejón Santa Ana </h3><p><span class=\"infoWebsite\"><a href=\"http://www.catedralcuenca.es\">http://www.catedralcuenca.es</a><br></span><span class=\"infoEmail\"><a href=\"mailto:catedralcuenca@catedralcuenca.es\">catedralcuenca@catedralcuenca.es</a><br></span><span class=\"infoTelephone\">098 333 5238</span></p><p class=\"infoDescription\">La Calle de Santa Ana en el siglo XVIII fue conocida como el “Callejón de la soledad”, que ha permanecido clausurada en los extremos que van desde el parque Calderón hasta la calle Padre Aguirre. Si usted se aposta en la de limitación de la Nueva Catedral y el Seminario Mayor frente al parque Calderón, va a observar que la gran mayoría de los transeúntes pasan por el portal sin siquiera percatarse de qué se trata ese espacio abierto hace algunos meses. La Calle de Santa Ana no es una hipótesis, es una realidad, su existencia en la historia de Cuenca es irrefutable; pero sin embargo, actualmente se ha convertido nuevamente en el “Callejón de la soledad”, gracias a la desidia del administrador de la ciudad, siendo utilizado ese valioso espacio público como simple pasadizo. <br><br>Permite el acceso a personas con movilidad reducida de esta manera puedan disfrutar de nuestra cultura.<br>Ubicación: Benigno Malo y Mariscal Sucre<br>Horario: Lunes a Domingo: 8:00–19:00<br>Costo de entrada: Gratuito<br> </p>",map: map});
+marker6.addListener('click', function () { infowindow6.open(map, marker6) ;});infowindow6.close();
+var marker7 = new google.maps.Marker({title: "Santo Cenaculo", icon: "img/chu.png", position: new google.maps.LatLng(-2.8962730105657584, -79.00793194770813), map: map});
+var infowindow7 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">Santo Cenaculo</h3><p><span class=\"infoWebsite\"><a href=\"https://www.visitaecuador.com\">https://www.visitaecuador.com</a><br></span><span class=\"infoEmail\"><a href=\"mailto:visitaecuador@hotmail.com\">visitaecuador@hotmail.com</a><br></span><span class=\"infoTelephone\">098 333 5238</span></p><p class=\"infoDescription\">En 1902, el Padre Julio Matovelle edificó la Iglesia del Cenáculo para dedicarle a la Adoración Perpetua de la Eucaristía, durante un tiempo estuvo confiado su cuidado a la Comunidad de Sacerdotes Jesuitas.<br>Bolívar, y Tarqui.<br><br>Permite el acceso a personas con movilidad reducida ya que de esta manera podrá apreciar la infraestructura.<br>Horarios: Lunes A Sabado 07h00 - 18h30 Domingo 07h00, 08h00 Y 18h00<br>Costo de entrada: Gratuito<br>Ubicación: Simon Bolívar 12-11 y Tarqui</p>",map: map});
+marker7.addListener('click', function () { infowindow7.open(map, marker7) ;});infowindow7.close();
+var marker8 = new google.maps.Marker({title: "Plazoleta La Merced", icon: "img/park.png", position: new google.maps.LatLng(-2.90138411676923, -79.00382816791534), map: map});
+var infowindow8 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">Plazoleta La Merced</h3><p><span class=\"infoWebsite\"><a href=\"http://www.borisalbornoz.com\">http://www.borisalbornoz.com</a><br></span><span class=\"infoEmail\"><a href=\"mailto:plazoletamerced@gmail.com\">plazoletamerced@gmail.com</a><br></span><span class=\"infoTelephone\">4098507</span></p><p class=\"infoDescription\">Uno de los aspectos relevantes que fueron tomados en cuenta en el diseño de la plazoleta lo constituye el diseño lumínico, garantizando niveles adecuados de iluminación y, al mismo tiempo, dando una característica distintiva al espacio a través de su luminaria.Este espacio recuperado se ha convertido en un centro de encuentro y esparcimiento de los ciudadanos, y ha generado un importante movimiento de actividad comercial y cultural. Es utilizado frecuentemente para la realización de exposiciones artísticas, conciertos, teatro infantil, entre otros.<br><br>Permite el acceso a personas con movilidad reducida.<br>Horario: Abierto las 24 horas<br>Costo de entrada: Gratuito<br>Ubicación: Presidente Borrero y Calle Larga</p>",map: map});
+marker8.addListener('click', function () { infowindow8.open(map, marker8) ;});infowindow8.close();
+var marker9 = new google.maps.Marker({title: "Parque el Paraíso", icon: "img/park.png", position: new google.maps.LatLng(-2.9093802192554437, -78.9873218536377), map: map});
+var infowindow9 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">Parque el Paraíso</h3><p><span class=\"infoWebsite\"><a href=\"http://www.gringotree.com\">http://www.gringotree.com</a><br></span><span class=\"infoEmail\"><a href=\"mailto:paraisogringotree@hotmail.com\">paraisogringotree@hotmail.com</a><br></span><span class=\"infoTelephone\">2876289</span></p><p class=\"infoDescription\">Es el parque más grande de Cuenca. Es muy espacioso, con senderos para disfrutar, un estanque para botes de pato / remo, equipo de juegos infantiles, una pista para correr, espacios abiertos, equipo para ejercicios, muchos árboles, flores, arbustos y césped verde suave.<br>Permite el acceso a personas con movilidad reducida y de esta manera  disfrute de la naturaleza.<br>Horario: Abierto las 24 horas<br>Costo de entrada: Gratuito<br>Ubicación: Ave. Pumapungo</p>",map: map});
+marker9.addListener('click', function () { infowindow9.open(map, marker9) ;});infowindow9.close();
+var marker10 = new google.maps.Marker({title: "Parque La Libertad", icon: "img/park.png", position: new google.maps.LatLng(-2.887023135530415, -79.00734722614288), map: map});
+var infowindow10 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">Parque La Libertad</h3><p><span class=\"infoWebsite\"><a href=\"www.parquelibertad.com\">www.parquelibertad.com</a><br></span><span class=\"infoEmail\"><a href=\"mailto:parquelibertad@hotmail.com\">parquelibertad@hotmail.com</a><br></span><span class=\"infoTelephone\">(07) 2485175</span></p><p class=\"infoDescription\">Ofrece una torre de 42 metros de altura, una visión de 360 grados del Centro Histórico y la parte norte de la ciudad, corona el Parque de la Libertad. \"Mucha historia en un solo lugar, en un barrio, que hoy se transforma, que cobra luz, que vive La Libertad. El 80 por ciento de la superficie del Parque de la Libertad, de aproximadamente 1,7 hectáreas, está destinado a áreas verdes que comprenden césped, flores y árboles menores, que no afecten la vista de las fachadas o las camineras con sus raíces.<br><br>Permite el acceso a personas con movilidad reducida para que puedan admirar la hermosa ciudad de Cuenca.<br>Horarios:  Lunes a Domingo 8:00 AM a 19:30 PM<br>Costo de entrada: Gratuito<br>Ubicación: calle Nicanor Merchán y Héroes de Verdeloma<br></p>",map: map});
+marker10.addListener('click', function () { infowindow10.open(map, marker10) ;});infowindow10.close();
+var marker11 = new google.maps.Marker({title: "Megaparque Tarqui Guzho", icon: "img/park.png", position: new google.maps.LatLng(-2.9193933490063877, -79.0263319015503), map: map});
+var infowindow11 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">Megaparque Tarqui Guzho</h3><p><span class=\"infoWebsite\"><a href=\"www.megaparque.com\">www.megaparque.com</a><br></span><span class=\"infoEmail\"><a href=\"mailto:megaparque@hotmail.com\">megaparque@hotmail.com</a><br></span><span class=\"infoTelephone\">40985047</span></p><p class=\"infoDescription\">Este parque es amplio con áreas verdes para disfrutar al igual cuenta con La figura de un raposo se instaló como parte de los juegos lúdicos del megaparque lineal Tarqui-Guzho, que está ubicado en el sur de Cuenca en total serán 13 figuras como un colibrí, aves, petirrojos, mirlos, flores, entre otras.<br>Permite el acceso a personas con discapacidad reducida para que disfruten del lugar en compañía de sus familiares,amigos.<br>Horario: Abierto las 24 horas<br>Costo de entrada: Gratuito<br>Ubicación: Ave. 12 de octubre<br><br></p>",map: map});
+marker11.addListener('click', function () { infowindow11.open(map, marker11) ;});infowindow11.close();
+var marker12 = new google.maps.Marker({title: "Parque San Blas", icon: "img/park.png", position: new google.maps.LatLng(-2.898641052159309, -78.99853080511093), map: map});
+var infowindow12 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">Parque San Blas</h3><p><span class=\"infoWebsite\"><a href=\"https://universes.art\">https://universes.art</a><br></span><span class=\"infoEmail\"><a href=\"mailto:parqueturismo@gmail.com\">parqueturismo@gmail.com</a><br></span><span class=\"infoTelephone\">4095630</span></p><p class=\"infoDescription\">La iglesia y la plaza de San Blas se encuentran en la ciudad de Cuenca, Ecuador, en el centro histórico de la ciudad. En mayo de 1557, a pocos días de fundada la ciudad de Cuenca se levantó un pequeño templo dedicado a San Blas. Entre 1938 y 1939 se construyó la iglesia actual que hoy luce restaurada en su exterior e interior, gracias a una inversión conjunta de la Curia Arquidiocesana y la Municipalidad.<br><br>Permite el acceso para personas con discapacidad reducida de esta manera disfruta del lugar <br>Horario: Abierto las 24 horas<br>Costo de entrada: Gratuito<br>Ubicación:  calle Manuel Vega y Simón Bolívar.</p>",map: map});
+marker12.addListener('click', function () { infowindow12.open(map, marker12) ;});infowindow12.close();
+var marker13 = new google.maps.Marker({title: "Parque  Miraflores", icon: "img/park.png", position: new google.maps.LatLng(-2.8847643640153553, -78.99358008877459), map: map});
+var infowindow13 = new google.maps.InfoWindow({content: "<h3 class=\"infoTitle\">Parque  Miraflores</h3><p><span class=\"infoWebsite\"><a href=\"www.miraflores.com\">www.miraflores.com</a><br></span><span class=\"infoEmail\"><a href=\"mailto:miraflores@gmail.com\">miraflores@gmail.com</a><br></span><span class=\"infoTelephone\">4098517</span></p><p class=\"infoDescription\">Parque con gran variedad de áreas verdes para disfrutar<br>Permite el acceso a personas con discapacidad reducida.<br>Costo de entrada: Gratuito<br>Horario: Abierto las 24 horas<br>Ubicación: Ave. las Américas</p>",map: map});
+marker13.addListener('click', function () { infowindow13.open(map, marker13) ;});infowindow13.close();
+
+    google.maps.event.addDomListener(window, "resize", function() { var center = map.getCenter(); google.maps.event.trigger(map, "resize"); map.setCenter(center); });
+  }
+google.maps.event.addDomListener(window, 'load', init);
+</script>
+<style>
+  #ez-map{min-height:150px;min-width:150px;height: 420px;width: 100%;}
+  #ez-map .infoTitle{}
+  #ez-map .infoWebsite{}
+  #ez-map .infoEmail{}
+  #ez-map .infoTelephone{}
+  #ez-map .infoDescription{}
+</style>
+<div id='ez-map'></div>
+<!-- End of EZ Map code - https://ezmap.co -->
+
+                            
+                            </div>
+						</div>
+				
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="js/CustomGoogleMapMarker.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/contact_custom.js"></script>
+</body>
+
+</html>
